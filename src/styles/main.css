@@ -1,0 +1,51 @@
+:root {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  margin: 0;
+}
+
+body {
+  background: transparent!important;
+  margin: 0;
+}
+
+main {
+  max-width: 100%;
+  background: none;
+}
+
+p {
+  width: 75%;
+}
+
+h1 {
+  font-family: 'Garamond', sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+p {
+  padding: 1rem;
+}
+
+li {
+  padding: 0.25rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: var(--color-secondary);
+}
+
+iframe body {
+  background: tranparent;
+  width: 100%;
+  height: 100%;
+}
