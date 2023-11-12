@@ -36,14 +36,16 @@ export default class Card extends HTMLElement {
             justify-content: space-between;
             background-color: #fff;
             overflow-x: hidden;
-          }
-          img {
-            max-width: 500px;
-            min-width: 500px;
-            width: 100%;
-          }
-          h3 {
-            font-size: 1.85rem;
+
+            > img {
+              max-width: 500px;
+              min-width: 500px;
+              width: 100%;
+            }
+            
+            > h3 {
+              font-size: 1.85rem;
+            }
           }
 
           @media(max-width: 768px) {

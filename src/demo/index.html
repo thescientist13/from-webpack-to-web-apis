@@ -26,10 +26,13 @@
 
     <script type="module">
       import axios from 'axios';
+      import config from "./config.json" assert { type: "json" };
+
+      const { PRODUCTS_ENDPOINT } = config;
 
       document.addEventListener('DOMContentLoaded', async () => {
         const card = document.querySelector('app-card');
-        const response = await axios.get('https://dummyjson.com/products');
+        const response = await axios.get(PRODUCTS_ENDPOINT);
         const { products } = response.data;
         const { title, thumbnail } = products[0];
 
