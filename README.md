@@ -24,7 +24,12 @@ You can now view the slide deck by opening `localhost:8080` in your browser.
 ## Demo
 
 The demo covers the following examples and can be seen in _src/demo_
-
+1. [ES Modules (ESM)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+1. [Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap)
+1. [Import Attributes (JSON)](https://github.com/tc39/proposal-import-attributes)
+1. [`new URL`](https://developer.mozilla.org/en-US/docs/Web/API/URL) + [`import.meta.url`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import.meta)
+1. [CSS Nesting](https://developer.chrome.com/articles/css-nesting/)
+1. [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 You can run it locally with the following command
 ```sh
