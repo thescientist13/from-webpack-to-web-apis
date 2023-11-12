@@ -13,7 +13,6 @@ If you would like to run this project locally
 1. Clone or fork this repo
 1. Install dependencies
     ```sh
-    # npm
     $ npm ci
     ```
 
@@ -24,4 +23,10 @@ You can now view the slide deck by opening `localhost:8080` in your browser.
 
 ## Demo
 
-TODO
+The demo covers the following examples and can be seen in _src/demo_
+
+
+You can run it locally with the following command
+```sh
+$ npm run demo
+```

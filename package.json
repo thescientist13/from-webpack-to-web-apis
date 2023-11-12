@@ -19,6 +19,7 @@
   "scripts": {
     "clean": "rimraf ./public ./.greenwood",
     "dev": "greenwood develop",
+    "demo": "live-server ./src/demo",
     "build": "greenwood build",
     "start": "npm run serve",
     "serve": "npm run clean && npm run build && greenwood serve"
@@ -27,6 +28,7 @@
     "@greenwood/cli": "~0.29.0",
     "@mapbox/rehype-prism": "^0.8.0",
     "greenwood-starter-presentation": "~0.8.0",
+    "live-server": "^1.2.2",
     "rimraf": "^3.0.2"
   }
 }
