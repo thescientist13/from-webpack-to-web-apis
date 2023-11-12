@@ -1,5 +1,4 @@
-// import styles from './s'
-const logo = new URL('./logo.png', import.meta.url);
+const logo = new URL('../logo.png', import.meta.url);
 
 export default class Header extends HTMLElement {
   connectedCallback() {
