@@ -7,17 +7,16 @@ export default class Header extends HTMLElement {
 
       template.innerHTML = `
         <style>
-          :host {
+          header {
             text-align: center;
-          }
 
-          h1 {
-            display: inline;
-            color: var(--color-primary);
-          }
+            > h1 {
+              display: inline;
+            }
 
-          img {
-            width: 25px;
+            > img {
+              width: 25px;
+            }
           }
         </style>
         <header>

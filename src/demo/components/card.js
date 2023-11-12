@@ -1,4 +1,3 @@
-// import styles from './s'
 export default class Card extends HTMLElement {
   static get observedAttributes() {
     return ['title', 'thumbnail'];
@@ -11,7 +10,7 @@ export default class Card extends HTMLElement {
 
       heading.textContent = newValue;
       img.setAttribute('alt', newValue);
-    } else if(name === 'thumbnail') {
+    } else if (name === 'thumbnail') {
       const img = this.shadowRoot.querySelector('img');
 
       img.setAttribute('src', newValue);
@@ -29,7 +28,7 @@ export default class Card extends HTMLElement {
             flex-direction: column;
             align-items: center;
             gap: 0.5rem;
-            border: 1px solid #818181;
+            border: 1px solid;
             border-radius: 10px;
             padding: 2rem 1rem;
             height: 400px;
@@ -44,6 +43,7 @@ export default class Card extends HTMLElement {
             }
             
             > h3 {
+              color: var(--color-primary);
               font-size: 1.85rem;
             }
           }
