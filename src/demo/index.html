@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <head>
+    <title>Demo</title>
+    <style>
+      :root {
+        --color-primary: #818181;
+      }
+      app-card {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "axios": "https://unpkg.com/axios@1.6.1/dist/esm/axios.js"
+        }
+      }
+    </script>
+
+    <script type="module">
+      import './components/card.js';
+      import './components/header.js';
+      import axios from 'axios';
+      import config from "./config.json" assert { type: "json" };
+
+      const { PRODUCTS_ENDPOINT } = config;
+
+      document.addEventListener('DOMContentLoaded', async () => {
+        const card = document.querySelector('app-card');
+        const response = await axios.get(PRODUCTS_ENDPOINT);
+        const { products } = response.data;
+        const { title, thumbnail } = products[0];
+
+        card.setAttribute('title', title);
+        card.setAttribute('thumbnail', thumbnail);
+      });
+    </script>
+  </head>
+
+  <body>
+    <app-header></app-header>
+    <app-card></app-card>
+  </body>
+</html>
