@@ -26,7 +26,7 @@ export default class Header extends HTMLElement {
       `;
       const node = template.content.cloneNode(true);
 
-      node.querySelector('img').setAttribute('src', logo.pathname)
+      node.querySelector('img').setAttribute('src', logo.pathname);
       
       this.attachShadow({ mode: 'open' });
       this.shadowRoot.appendChild(node);

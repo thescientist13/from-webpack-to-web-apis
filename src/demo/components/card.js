@@ -47,16 +47,6 @@ export default class Card extends HTMLElement {
               font-size: 1.85rem;
             }
           }
-
-          @media(max-width: 768px) {
-            img {
-              max-width: 300px;
-              min-width: 300px;
-            }
-            div {
-              height: 500px;
-            }
-          }
         </style>
         <div>
           <h3></h3>
