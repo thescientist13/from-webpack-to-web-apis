@@ -1,0 +1,8 @@
+@import '../../node_modules/prismjs/themes/prism-tomorrow.min.css';
+
+div#container > pre {
+  margin-left: 20px;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 2px;;
+}
