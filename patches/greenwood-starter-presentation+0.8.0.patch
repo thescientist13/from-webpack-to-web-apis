@@ -1,0 +1,15 @@
+diff --git a/node_modules/greenwood-starter-presentation/dist/components/presenter-mode.js b/node_modules/greenwood-starter-presentation/dist/components/presenter-mode.js
+index a6e1fcc..8ab6894 100644
+--- a/node_modules/greenwood-starter-presentation/dist/components/presenter-mode.js
++++ b/node_modules/greenwood-starter-presentation/dist/components/presenter-mode.js
+@@ -2,6 +2,10 @@ const template = document.createElement('template');
+ 
+ template.innerHTML = `
+   <style>
++    :host {
++      --color-primary: #135;
++    }
++
+     .fullscreen-container {
+       display: none;
+     }
