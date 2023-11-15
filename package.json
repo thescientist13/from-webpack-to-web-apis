@@ -22,15 +22,13 @@
     "demo": "live-server ./src/demo",
     "build": "greenwood build",
     "start": "npm run serve",
-    "serve": "npm run clean && npm run build && greenwood serve",
-    "postinstall": "patch-package"
+    "serve": "npm run clean && npm run build && greenwood serve"
   },
   "devDependencies": {
     "@greenwood/cli": "~0.29.0",
     "@mapbox/rehype-prism": "^0.8.0",
-    "greenwood-starter-presentation": "~0.8.0",
+    "greenwood-starter-presentation": "~0.8.1",
     "live-server": "^1.2.2",
-    "patch-package": "^8.0.0",
     "rimraf": "^3.0.2"
   }
 }
