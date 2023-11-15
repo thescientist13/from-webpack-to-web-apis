@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e8924f63-090f-4f6a-87ae-e7c34420d33e/deploy-status)](https://app.netlify.com/sites/lively-lollipop-a20857/deploys)
 
-Slides and demo for my [Cloud RI meetup talk](https://www.meetup.com/cloudri/events/297053982/).
+Slides and demo for my [Cloud RI meetup talk](https://www.meetup.com/cloudri/events/297053982/).  [Hosted on Netlify](https://lively-lollipop-a20857.netlify.app) and built using [GreenwoodJS](https://greenwoodjs.io) with the [**greenwood-starter-presentation** theme pack plugin](https://github.com/thescientist13/greenwood-starter-presentation/)
 
 > _To operate the deck in full screen, click the "Presenter mode" button and use the left and right arrows keys to navigate through the slides.  Hit `ESC` to exit presenter mode._
 
