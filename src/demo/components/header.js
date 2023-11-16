@@ -10,11 +10,11 @@ export default class Header extends HTMLElement {
           header {
             text-align: center;
 
-            > h1 {
+            & h1 {
               display: inline;
             }
 
-            > img {
+            & img {
               width: 25px;
             }
           }
