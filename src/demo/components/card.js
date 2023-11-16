@@ -36,13 +36,13 @@ export default class Card extends HTMLElement {
             background-color: #fff;
             overflow-x: hidden;
 
-            > img {
+            & img {
               max-width: 500px;
               min-width: 500px;
               width: 100%;
             }
             
-            > h3 {
+            & h3 {
               color: var(--color-primary);
               font-size: 1.85rem;
             }
